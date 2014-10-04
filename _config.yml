@@ -31,3 +31,4 @@ address:
 markdown: kramdown
 permalink: pretty
 #baseurl: /blog
+exclude: ["README.md"]
