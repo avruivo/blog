@@ -2,13 +2,54 @@
 title: Freelancer
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+ 
 # Color settings (hex-codes without the leading hash-tag)
+#	primary:   		#main + linkColors
+#	secondary: 		#header bg + footer bg + h1.onAlternate
+#	secondary-dark: #copyRight
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 433e3d
+  secondary: 362e2d
+  secondary-dark: 474a59
+  alternate: 7e7e8e
+  light: b4bcde
 
+colorA:
+  primary: 362e2d
+  secondary: 433e3d
+  secondary-dark: 474a59
+  alternate: 7e7e8e
+  light: b4bcde
+  
+colorB:
+  primary: 433e3d
+  secondary: 474a59
+  secondary-dark: 7e7e8e
+  alternate: b4bcde
+  light: 362e2d
+  
+colorC:
+  primary: 474a59
+  secondary: 7e7e8e
+  secondary-dark: b4bcde
+  alternate: 362e2d
+  light: 433e3d
+  
+colorD:
+  primary: 7e7e8e
+  secondary: b4bcde
+  secondary-dark: 362e2d
+  alternate: 433e3d
+  light: 474a59
+  
+colorE:
+  primary: b4bcde
+  secondary: 362e2d
+  secondary-dark: 433e3d
+  alternate: 474a59
+  light: 7e7e8e
+
+  
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter

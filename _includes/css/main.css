@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.alternate }};
 }
 
 h1,
@@ -265,7 +265,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.light }};
     background: #fff;
 }
 
@@ -442,4 +442,27 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+
+/*AVR;*/
+body{
+	/*background-color: #{{ site.color.secondary-dark }};*/
+	
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+	background-color: #{{ site.color.secondary-dark }};
+	/*color:red;*/
+}
+
+.btn:hover{
+	background-color: #{{ site.color.secondary-dark }};
+	color:white !important;
+}
+
+nav a:hover{
+	color: #{{ site.color.light }} !important;
 }
