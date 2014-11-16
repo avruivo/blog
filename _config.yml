@@ -7,6 +7,8 @@ description: "Write an awesome description for your new site here. You can edit 
 #	primary:   		#main + linkColors
 #	secondary: 		#header bg + footer bg + h1.onAlternate
 #	secondary-dark: #copyRight
+
+# check https://color.adobe.com/my/themes/
 color:
   primary: 433e3d
   secondary: 362e2d
@@ -49,6 +51,20 @@ colorE:
   alternate: 474a59
   light: 7e7e8e
 
+# Owner/author information
+owner:
+  name:           Andre Ruivo
+  avatar:         hmfaysal.jpg
+  email:          hmfaysal@alum.mit.edu
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    Awesome Dude, Awesome Life
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        hmfaysal
+  facebook:       hmfaysal
+  github:         hmfaysal      
+  instagram:      hmfaysal
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/u/0/102602916593522619858
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

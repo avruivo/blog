@@ -4,18 +4,32 @@
   {% include head.html %}
   
 
-    <body id="page-top" class="index">
+    <body id="page-top" class="index blog post">
     
 	{% include navigation.html %}
-	 <!-- Post Section -->
-    <section class="success" id="about">
+	
+	<!-- <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">    
+                </div>
+            </div>
+        </div>
+    </header> -->
+	<header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>{{ title }}</h2>
-                    <hr class="star-light">
+                    <h2>{{ page.title }}</h2>
+					<p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
                 </div>
             </div>
+        </div>
+    </header>
+	
+	 <!-- Post Section -->
+    <section class="success" id="about">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
 					{{ content }}
