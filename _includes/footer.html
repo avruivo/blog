@@ -4,11 +4,15 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
+                        <h3>From</h3>
                         <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
+                            <a href="http://time.is/Lisbon" id="time_is_link" rel="nofollow">Portugal - Lisbon:</a>
+							<span id="Lisbon_z714"></span>
+							<script src="http://widget.time.is/en.js"></script>
+							<script>
+							time_is_widget.init({Lisbon_z714:{template:"TIME<br/>DATE", date_format:"dayname, monthname dnum, year, week"}});
+							</script>
+
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
@@ -22,8 +26,7 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        {% include widgets/twitter.html %}
                     </div>
                 </div>
             </div>

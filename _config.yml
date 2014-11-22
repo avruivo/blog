@@ -1,7 +1,10 @@
+encoding:     "utf-8"
+
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Andr&#233; Ruivo's blog"
+email: avruivo@gmail.com
+description: "This is a techy blog, with some programming/technical approaches and difficulties that I have experienced."
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
  
 # Color settings (hex-codes without the leading hash-tag)
 #	primary:   		#main + linkColors
@@ -59,25 +62,25 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        andrevruivo
+  #facebook:       hmfaysal
+  github:         avruivo      
+  #instagram:      hmfaysal
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  #google_plus:    https://plus.google.com/u/0/102602916593522619858
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/andrevruivo
+  - title: linkedin
+    url: http://linkedin.com/avruivo
+  #- title: stack-overflow
+    #url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket 
+    #url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/avruivo
 
 # Postal address (add as many lines as necessary)
 address:
